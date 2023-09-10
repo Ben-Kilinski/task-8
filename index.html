@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form onsubmit="return validForm()">
-        First name:<input id="firstname" type="text">
-        Family name:<input id="lastname" type="text">
-        Born date:<input id="birthday" type="date">
-        E-mail:<input id="email" type="email">
-        Telephone:<input id="phone" type="tel">
-        Job:<input id="job" type="text">
-        <button type="submit">submit</button>
+        <labor>First name:</labor><input id="firstname" type="text"><br>
+        <labor>Last name:</labor><input id="lastname" type="text"><br>
+        <labor>Telephone:</labor><input id="phone" type="tel"><br>
+        <labor>E-mail:</labor><input id="email" type="email"><br>
+        <labor>Job:</labor><input id="job" type="text"><br>
+        <labor>Birth date:</labor><input id="birthday" type="date"><br>
+        <button type="submit">submit</button><br>
+        <span id="errorWatch"></span><br>
+        <span id="anotherTryTimer"></span><br>
     </form>
     
     

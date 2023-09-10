@@ -1,0 +1,53 @@
+form {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #888888;
+    width: 300px;
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 38px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+labor {
+    text-align: right;
+    display: inline-block;
+    width: 90px; /* Ajuste conforme necessário */
+    margin-right: 10px;
+    margin-top: 5px;
+    
+}
+#errorWatch{
+    font-size: 12px;
+    color: #333;
+    background-color: #f8f8f8;
+    padding: 0px 100px;
+    border-radius: 5px;
+    bottom: 10px; /* Posição a 10px do fundo */
+    left: 50%; /* Centralize horizontalmente */
+    transform: translateX(-50%); /* Centralize horizontalmente */
+}
+
+#anotherTryTimer{
+    font-size: 12px;
+    padding-left: 60px;
+    padding-top: 5px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
